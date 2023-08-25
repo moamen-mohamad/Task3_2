@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- start my framework ---------- */
+
+h1 {
+    font-size: 40px;
+}
+
+.black {
+    background: #2c3e50;
+}
+
+.white {
+    background: #fff;
+}
+
+.green {
+    background: #1abc9c;
+}
+
+.blacker {
+    background: #1a252f;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+.f-white {
+    color: white;
+}
+
+.t-center {
+    text-align: center;
+}
+
+/* ---------- end my framework ---------- */
+
+header .nav {
+    background-color: gray;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+header .nav a {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header .hero {
+    background-image: url(../imgs/bulding.jpg);
+    background-size: cover;
+    height: calc(100vh - 60px);
+}
+
+header .hero h1 {
+    background-color: rgba(255, 0, 0, 0.308);
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#about {
+    min-height: 50vh;
+}
+
+#about h1 {
+    margin: 20px;
+}
+
+#about p {
+    margin: 20px;
+    padding: 10px;
+}
+
+#services {
+    background-color: #fad0ba;
+    min-height: 50vh;
+}
+
+#services h1 {
+    margin: 20px;
+}
+
+#services .parent {
+    width: 100%;
+    margin: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#specializations {
+    background-color: #ffffff;
+    height: max-content;
+}
+
+#specializations h1 {
+    margin-top: 50px;
+}
+
+#specializations .parent {
+    margin: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#specializations .child {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: rgb(170, 218, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#teachers {
+    background-color: #fad0ba;
+    height: max-content;
+}
+
+#teachers h1 {
+    margin-top: 50px;
+}
+
+#teachers .parent {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#teachers .child {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: rgb(170, 218, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#plans {
+    height: max-content;
+}
+
+#plans h1 {
+    margin-top: 50px;
+}
+
+#plans h2 {
+    text-align: center;
+}
+
+#plans ul {
+    padding: 0 16px;
+}
+
+#plans .info-plan {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #fad0ba;
+}
+
+#plans .parent {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#plans img {
+    width: 200px;
+}
+
+#plans .child {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: rgb(170, 218, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact {
+    height: max-content;
+    background-color: #fad0ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us {
+    padding-bottom: 30px;
+    border-bottom: 1px grey  solid;
+
+}
+
+#contact h1 {
+    margin-top: 50px;
+}
+
+#contact .user-info {
+    margin-top: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .user-info h1 {
+    margin-top: 25px;
+}
+
+
+#contact input,
+textarea {
+    margin: 10px 0;
+    height: 40px;
+}
+
+#contact button {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+} 
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.contact-info h1 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+} 
+
+footer {
+    background-color: rgb(170, 218, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
